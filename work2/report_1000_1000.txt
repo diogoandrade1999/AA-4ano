@@ -1,0 +1,844 @@
+Chain size 1000 – 1000 trials
+Chain: deendooopddonnnnordndedrngaaaogoildaponaraaporisspogranodanrndroanlndéanésnndaanrdidnaéairieeoalodaddgpeoridoogpnaaalossdndéeeoéipoirsldeoadidodléddrdéopsagpdlonlsaidsoardeoosdnleaddpdednsnnnaaogndddeaooanoaorgsrdodpldaadeosaanndnsosdinrarpdeedlnrdnéddoéseinadosoloarooedaioienlodéopdgdniodenapddeirpaeéaésdgniaénrlndaaésnrapdpndgdponieiadonddppoeonaddanardrlaaréledogdéoeoreeaonnlnaeéreaaperlaoageeaéddiisapgeoidlrndepodgennéédrdeoérepppgnsdrolnrnlsgadilanedgpgdroéégaaadldreaolrenaeéedodonndipoogldorérrrerdeaeaaoléaadégndoodréeaepppdgedniddeoiopadaaépaolndéioogaegdoodesoieeediiadoadnooeaedddannedpreiononieediradealiaarredgeasoelaaorééiararadaeaodrareoornogenadneagraoronldéaeraéaoiadgasgddddrdprongnrsagpoornoardlnagdodgpooddgdoasdoadneadnégsedddenadiégddladrnodaedsdadeédriraaedeeeilenadaegrerpaaoseddaeéodorinrddddornarrdaaniéalorsaeopasnddoddaedneiiodnarspoaoirodeidaaénorodlpissdoannonnegdedsnaddoadasrrsdddaseoddeledddrgiaagaadrdaeeddgdeaélodindlaaeodeéaedesdandisgasonanagiooloaodlgsriradd
+
+Letter: d
+	Exact value: 187
+
+	Prob 1/16 Counter:
+		Expected Value: 12
+		Expected Variance: 10.96
+		Expected Standard Deviation: 3.31
+
+		Max Absolute Error: 13
+		Min Absolute Error: 0
+		Mean Absolute Error: 2.76
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 24.13%
+
+		Largest Counter Value: 25
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 11.83
+		Mean Absolute Deviation: 2.77
+		Standard Deviation: 3.48
+		Maximum Deviation: 13.17
+		Variance: 12.14
+
+		counter value:          3 -          4 times
+		counter value:          4 -         10 times
+		counter value:          5 -         16 times
+		counter value:          6 -         21 times
+		counter value:          7 -         36 times
+		counter value:          8 -         76 times
+		counter value:          9 -         90 times
+		counter value:         10 -        124 times
+		counter value:         11 -        100 times
+		counter value:         12 -        118 times
+		counter value:         13 -        102 times
+		counter value:         14 -         90 times
+		counter value:         15 -         64 times
+		counter value:         16 -         53 times
+		counter value:         17 -         35 times
+		counter value:         18 -         25 times
+		counter value:         19 -         19 times
+		counter value:         20 -         11 times
+		counter value:         21 -          2 times
+		counter value:         22 -          1 times
+		counter value:         24 -          2 times
+		counter value:         25 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 15
+		Expected Variance: 38.73
+		Expected Standard Deviation: 6.22
+
+		Max Absolute Error: 15
+		Min Absolute Error: 0
+		Mean Absolute Error: 2.72
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 20.43%
+
+		Largest Counter Value: 16
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 12.29
+		Mean Absolute Deviation: 0.99
+		Standard Deviation: 1.28
+		Maximum Deviation: 12.29
+		Variance: 1.63
+
+		counter value:          8 -          1 times
+		counter value:          9 -          6 times
+		counter value:         10 -         55 times
+		counter value:         11 -        185 times
+		counter value:         12 -        331 times
+		counter value:         13 -        261 times
+		counter value:         14 -        128 times
+		counter value:         15 -         29 times
+		counter value:         16 -          4 times
+
+Letter: e
+	Exact value: 100
+
+	Prob 1/16 Counter:
+		Expected Value: 6
+		Expected Variance: 5.86
+		Expected Standard Deviation: 2.42
+
+		Max Absolute Error: 9
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.92
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 31.94%
+
+		Largest Counter Value: 15
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 6.28
+		Mean Absolute Deviation: 1.95
+		Standard Deviation: 2.46
+		Maximum Deviation: 8.72
+		Variance: 6.05
+
+		counter value:          1 -          9 times
+		counter value:          2 -         29 times
+		counter value:          3 -         84 times
+		counter value:          4 -        125 times
+		counter value:          5 -        149 times
+		counter value:          6 -        172 times
+		counter value:          7 -        150 times
+		counter value:          8 -        104 times
+		counter value:          9 -         77 times
+		counter value:         10 -         39 times
+		counter value:         11 -         29 times
+		counter value:         12 -         16 times
+		counter value:         13 -         11 times
+		counter value:         14 -          3 times
+		counter value:         15 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 71
+		Expected Variance: 20.71
+		Expected Standard Deviation: 4.55
+
+		Max Absolute Error: 71
+		Min Absolute Error: 55
+		Mean Absolute Error: 60.49
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 126.44%
+		Mean Relative Error: 148.5%
+
+		Largest Counter Value: 16
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 10.51
+		Mean Absolute Deviation: 0.99
+		Standard Deviation: 1.24
+		Maximum Deviation: 10.51
+		Variance: 1.53
+
+		counter value:          7 -          3 times
+		counter value:          8 -         35 times
+		counter value:          9 -        149 times
+		counter value:         10 -        314 times
+		counter value:         11 -        296 times
+		counter value:         12 -        165 times
+		counter value:         13 -         33 times
+		counter value:         14 -          3 times
+		counter value:         16 -          2 times
+
+Letter: n
+	Exact value: 97
+
+	Prob 1/16 Counter:
+		Expected Value: 6
+		Expected Variance: 5.68
+		Expected Standard Deviation: 2.38
+
+		Max Absolute Error: 9
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.93
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 33.23%
+
+		Largest Counter Value: 15
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 6.06
+		Mean Absolute Deviation: 1.94
+		Standard Deviation: 2.45
+		Maximum Deviation: 8.94
+		Variance: 6.02
+
+		counter value:          1 -         15 times
+		counter value:          2 -         31 times
+		counter value:          3 -         91 times
+		counter value:          4 -        146 times
+		counter value:          5 -        161 times
+		counter value:          6 -        169 times
+		counter value:          7 -        125 times
+		counter value:          8 -         94 times
+		counter value:          9 -         65 times
+		counter value:         10 -         55 times
+		counter value:         11 -         26 times
+		counter value:         12 -         11 times
+		counter value:         13 -          5 times
+		counter value:         14 -          2 times
+		counter value:         15 -          2 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 69
+		Expected Variance: 20.09
+		Expected Standard Deviation: 4.48
+
+		Max Absolute Error: 69
+		Min Absolute Error: 54
+		Mean Absolute Error: 58.54
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 128.57%
+		Mean Relative Error: 147.44%
+
+		Largest Counter Value: 15
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 10.46
+		Mean Absolute Deviation: 0.98
+		Standard Deviation: 1.23
+		Maximum Deviation: 10.46
+		Variance: 1.5
+
+		counter value:          7 -          2 times
+		counter value:          8 -         34 times
+		counter value:          9 -        166 times
+		counter value:         10 -        319 times
+		counter value:         11 -        306 times
+		counter value:         12 -        124 times
+		counter value:         13 -         43 times
+		counter value:         14 -          5 times
+		counter value:         15 -          1 times
+
+Letter: o
+	Exact value: 124
+
+	Prob 1/16 Counter:
+		Expected Value: 8
+		Expected Variance: 7.27
+		Expected Standard Deviation: 2.7
+
+		Max Absolute Error: 9
+		Min Absolute Error: 0
+		Mean Absolute Error: 2.16
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 28.67%
+
+		Largest Counter Value: 17
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 7.86
+		Mean Absolute Deviation: 2.17
+		Standard Deviation: 2.72
+		Maximum Deviation: 9.14
+		Variance: 7.38
+
+		counter value:          1 -          1 times
+		counter value:          2 -         11 times
+		counter value:          3 -         22 times
+		counter value:          4 -         70 times
+		counter value:          5 -        101 times
+		counter value:          6 -        114 times
+		counter value:          7 -        153 times
+		counter value:          8 -        131 times
+		counter value:          9 -        137 times
+		counter value:         10 -         92 times
+		counter value:         11 -         80 times
+		counter value:         12 -         40 times
+		counter value:         13 -         25 times
+		counter value:         14 -          7 times
+		counter value:         15 -          7 times
+		counter value:         16 -          6 times
+		counter value:         17 -          3 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 88
+		Expected Variance: 25.68
+		Expected Standard Deviation: 5.07
+
+		Max Absolute Error: 88
+		Min Absolute Error: 73
+		Mean Absolute Error: 76.82
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 141.75%
+		Mean Relative Error: 154.95%
+
+		Largest Counter Value: 15
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 11.18
+		Mean Absolute Deviation: 0.95
+		Standard Deviation: 1.24
+		Maximum Deviation: 11.18
+		Variance: 1.54
+
+		counter value:          8 -          7 times
+		counter value:          9 -         56 times
+		counter value:         10 -        218 times
+		counter value:         11 -        334 times
+		counter value:         12 -        257 times
+		counter value:         13 -        101 times
+		counter value:         14 -         21 times
+		counter value:         15 -          6 times
+
+Letter: p
+	Exact value: 41
+
+	Prob 1/16 Counter:
+		Expected Value: 3
+		Expected Variance: 2.4
+		Expected Standard Deviation: 1.55
+
+		Max Absolute Error: 5
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.19
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 44.45%
+
+		Largest Counter Value: 8
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 2.78
+		Mean Absolute Deviation: 1.19
+		Standard Deviation: 1.46
+		Maximum Deviation: 5.22
+		Variance: 2.13
+
+		counter value:          1 -        194 times
+		counter value:          2 -        264 times
+		counter value:          3 -        206 times
+		counter value:          4 -        138 times
+		counter value:          5 -         90 times
+		counter value:          6 -         29 times
+		counter value:          7 -          6 times
+		counter value:          8 -          5 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 29
+		Expected Variance: 8.49
+		Expected Standard Deviation: 2.91
+
+		Max Absolute Error: 29
+		Min Absolute Error: 16
+		Mean Absolute Error: 20.93
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 76.19%
+		Mean Relative Error: 113.24%
+
+		Largest Counter Value: 13
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.07
+		Mean Absolute Deviation: 0.89
+		Standard Deviation: 1.18
+		Maximum Deviation: 8.07
+		Variance: 1.4
+
+		counter value:          5 -          4 times
+		counter value:          6 -         69 times
+		counter value:          7 -        243 times
+		counter value:          8 -        339 times
+		counter value:          9 -        243 times
+		counter value:         10 -         82 times
+		counter value:         11 -         17 times
+		counter value:         12 -          1 times
+		counter value:         13 -          2 times
+
+Letter: r
+	Exact value: 80
+
+	Prob 1/16 Counter:
+		Expected Value: 5
+		Expected Variance: 4.69
+		Expected Standard Deviation: 2.17
+
+		Max Absolute Error: 10
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.72
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 36.2%
+
+		Largest Counter Value: 15
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 5.05
+		Mean Absolute Deviation: 1.73
+		Standard Deviation: 2.18
+		Maximum Deviation: 9.95
+		Variance: 4.76
+
+		counter value:          1 -         30 times
+		counter value:          2 -         87 times
+		counter value:          3 -        145 times
+		counter value:          4 -        149 times
+		counter value:          5 -        196 times
+		counter value:          6 -        129 times
+		counter value:          7 -        116 times
+		counter value:          8 -         67 times
+		counter value:          9 -         49 times
+		counter value:         10 -         12 times
+		counter value:         11 -          6 times
+		counter value:         12 -          2 times
+		counter value:         15 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 57
+		Expected Variance: 16.57
+		Expected Standard Deviation: 4.07
+
+		Max Absolute Error: 57
+		Min Absolute Error: 44
+		Mean Absolute Error: 47.12
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 125.71%
+		Mean Relative Error: 141.01%
+
+		Largest Counter Value: 13
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 9.88
+		Mean Absolute Deviation: 0.93
+		Standard Deviation: 1.22
+		Maximum Deviation: 9.88
+		Variance: 1.5
+
+		counter value:          7 -         18 times
+		counter value:          8 -        103 times
+		counter value:          9 -        239 times
+		counter value:         10 -        342 times
+		counter value:         11 -        214 times
+		counter value:         12 -         74 times
+		counter value:         13 -         10 times
+
+Letter: g
+	Exact value: 45
+
+	Prob 1/16 Counter:
+		Expected Value: 3
+		Expected Variance: 2.64
+		Expected Standard Deviation: 1.62
+
+		Max Absolute Error: 7
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.15
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 41.38%
+
+		Largest Counter Value: 10
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 2.96
+		Mean Absolute Deviation: 1.16
+		Standard Deviation: 1.49
+		Maximum Deviation: 7.04
+		Variance: 2.22
+
+		counter value:          1 -        174 times
+		counter value:          2 -        212 times
+		counter value:          3 -        248 times
+		counter value:          4 -        168 times
+		counter value:          5 -         93 times
+		counter value:          6 -         29 times
+		counter value:          7 -         13 times
+		counter value:          8 -          5 times
+		counter value:         10 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 32
+		Expected Variance: 9.32
+		Expected Standard Deviation: 3.05
+
+		Max Absolute Error: 32
+		Min Absolute Error: 20
+		Mean Absolute Error: 23.62
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 90.91%
+		Mean Relative Error: 117.24%
+
+		Largest Counter Value: 12
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.38
+		Mean Absolute Deviation: 0.95
+		Standard Deviation: 1.17
+		Maximum Deviation: 8.38
+		Variance: 1.37
+
+		counter value:          5 -          1 times
+		counter value:          6 -         40 times
+		counter value:          7 -        181 times
+		counter value:          8 -        313 times
+		counter value:          9 -        307 times
+		counter value:         10 -        130 times
+		counter value:         11 -         24 times
+		counter value:         12 -          4 times
+
+Letter: a
+	Exact value: 150
+
+	Prob 1/16 Counter:
+		Expected Value: 9
+		Expected Variance: 8.79
+		Expected Standard Deviation: 2.96
+
+		Max Absolute Error: 10
+		Min Absolute Error: 0
+		Mean Absolute Error: 2.39
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 26.71%
+
+		Largest Counter Value: 19
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 9.3
+		Mean Absolute Deviation: 2.42
+		Standard Deviation: 3.01
+		Maximum Deviation: 9.7
+		Variance: 9.08
+
+		counter value:          1 -          1 times
+		counter value:          2 -          3 times
+		counter value:          3 -         10 times
+		counter value:          4 -         23 times
+		counter value:          5 -         64 times
+		counter value:          6 -         81 times
+		counter value:          7 -        104 times
+		counter value:          8 -        127 times
+		counter value:          9 -        138 times
+		counter value:         10 -        119 times
+		counter value:         11 -         98 times
+		counter value:         12 -         80 times
+		counter value:         13 -         65 times
+		counter value:         14 -         40 times
+		counter value:         15 -         20 times
+		counter value:         16 -         12 times
+		counter value:         17 -          9 times
+		counter value:         18 -          5 times
+		counter value:         19 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 106
+		Expected Variance: 31.07
+		Expected Standard Deviation: 5.57
+
+		Max Absolute Error: 106
+		Min Absolute Error: 90
+		Mean Absolute Error: 94.31
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 147.54%
+		Mean Relative Error: 160.32%
+
+		Largest Counter Value: 16
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 11.69
+		Mean Absolute Deviation: 0.99
+		Standard Deviation: 1.25
+		Maximum Deviation: 11.69
+		Variance: 1.57
+
+		counter value:          8 -          2 times
+		counter value:          9 -         23 times
+		counter value:         10 -        115 times
+		counter value:         11 -        318 times
+		counter value:         12 -        296 times
+		counter value:         13 -        181 times
+		counter value:         14 -         53 times
+		counter value:         15 -         11 times
+		counter value:         16 -          1 times
+
+Letter: i
+	Exact value: 51
+
+	Prob 1/16 Counter:
+		Expected Value: 3
+		Expected Variance: 2.99
+		Expected Standard Deviation: 1.73
+
+		Max Absolute Error: 7
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.25
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 39.9%
+
+		Largest Counter Value: 10
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 3.31
+		Mean Absolute Deviation: 1.31
+		Standard Deviation: 1.63
+		Maximum Deviation: 6.69
+		Variance: 2.64
+
+		counter value:          1 -        111 times
+		counter value:          2 -        230 times
+		counter value:          3 -        230 times
+		counter value:          4 -        189 times
+		counter value:          5 -         94 times
+		counter value:          6 -         64 times
+		counter value:          7 -         30 times
+		counter value:          8 -          8 times
+		counter value:          9 -          2 times
+		counter value:         10 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 36
+		Expected Variance: 10.56
+		Expected Standard Deviation: 3.25
+
+		Max Absolute Error: 36
+		Min Absolute Error: 24
+		Mean Absolute Error: 27.3
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 100.0%
+		Mean Relative Error: 122.43%
+
+		Largest Counter Value: 12
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.7
+		Mean Absolute Deviation: 1.0
+		Standard Deviation: 1.24
+		Maximum Deviation: 8.7
+		Variance: 1.53
+
+		counter value:          6 -         21 times
+		counter value:          7 -        138 times
+		counter value:          8 -        290 times
+		counter value:          9 -        296 times
+		counter value:         10 -        187 times
+		counter value:         11 -         58 times
+		counter value:         12 -         10 times
+
+Letter: l
+	Exact value: 40
+
+	Prob 1/16 Counter:
+		Expected Value: 2
+		Expected Variance: 2.34
+		Expected Standard Deviation: 1.53
+
+		Max Absolute Error: 7
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.11
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 43.27%
+
+		Largest Counter Value: 9
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 2.68
+		Mean Absolute Deviation: 1.14
+		Standard Deviation: 1.4
+		Maximum Deviation: 6.32
+		Variance: 1.97
+
+		counter value:          1 -        197 times
+		counter value:          2 -        279 times
+		counter value:          3 -        210 times
+		counter value:          4 -        138 times
+		counter value:          5 -         54 times
+		counter value:          6 -         30 times
+		counter value:          7 -          9 times
+		counter value:          8 -          1 times
+		counter value:          9 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 28
+		Expected Variance: 8.28
+		Expected Standard Deviation: 2.88
+
+		Max Absolute Error: 28
+		Min Absolute Error: 16
+		Mean Absolute Error: 19.95
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 80.0%
+		Mean Relative Error: 110.98%
+
+		Largest Counter Value: 12
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.05
+		Mean Absolute Deviation: 0.88
+		Standard Deviation: 1.16
+		Maximum Deviation: 8.05
+		Variance: 1.35
+
+		counter value:          5 -          4 times
+		counter value:          6 -         68 times
+		counter value:          7 -        249 times
+		counter value:          8 -        342 times
+		counter value:          9 -        231 times
+		counter value:         10 -         92 times
+		counter value:         11 -         13 times
+		counter value:         12 -          1 times
+
+Letter: s
+	Exact value: 43
+
+	Prob 1/16 Counter:
+		Expected Value: 3
+		Expected Variance: 2.52
+		Expected Standard Deviation: 1.59
+
+		Max Absolute Error: 6
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.14
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 41.9%
+
+		Largest Counter Value: 9
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 2.86
+		Mean Absolute Deviation: 1.16
+		Standard Deviation: 1.46
+		Maximum Deviation: 6.14
+		Variance: 2.13
+
+		counter value:          1 -        173 times
+		counter value:          2 -        254 times
+		counter value:          3 -        233 times
+		counter value:          4 -        152 times
+		counter value:          5 -         80 times
+		counter value:          6 -         27 times
+		counter value:          7 -         13 times
+		counter value:          8 -          4 times
+		counter value:          9 -          1 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 30
+		Expected Variance: 8.91
+		Expected Standard Deviation: 2.98
+
+		Max Absolute Error: 30
+		Min Absolute Error: 18
+		Mean Absolute Error: 21.78
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 85.71%
+		Mean Relative Error: 114.26%
+
+		Largest Counter Value: 12
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.22
+		Mean Absolute Deviation: 0.9
+		Standard Deviation: 1.16
+		Maximum Deviation: 8.22
+		Variance: 1.33
+
+		counter value:          5 -          2 times
+		counter value:          6 -         54 times
+		counter value:          7 -        196 times
+		counter value:          8 -        359 times
+		counter value:          9 -        266 times
+		counter value:         10 -         98 times
+		counter value:         11 -         24 times
+		counter value:         12 -          1 times
+
+Letter: é
+	Exact value: 42
+
+	Prob 1/16 Counter:
+		Expected Value: 3
+		Expected Variance: 2.46
+		Expected Standard Deviation: 1.57
+
+		Max Absolute Error: 5
+		Min Absolute Error: 0
+		Mean Absolute Error: 1.13
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 0.0%
+		Mean Relative Error: 41.97%
+
+		Largest Counter Value: 8
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 2.83
+		Mean Absolute Deviation: 1.15
+		Standard Deviation: 1.43
+		Maximum Deviation: 5.17
+		Variance: 2.05
+
+		counter value:          1 -        182 times
+		counter value:          2 -        245 times
+		counter value:          3 -        235 times
+		counter value:          4 -        170 times
+		counter value:          5 -         57 times
+		counter value:          6 -         33 times
+		counter value:          7 -         14 times
+		counter value:          8 -          2 times
+
+	Log with base sqtr(2) Counter:
+		Expected Value: 30
+		Expected Variance: 8.7
+		Expected Standard Deviation: 2.95
+
+		Max Absolute Error: 30
+		Min Absolute Error: 18
+		Mean Absolute Error: 21.83
+
+		Max Relative Error: 200.0%
+		Min Relative Error: 85.71%
+		Mean Relative Error: 114.69%
+
+		Largest Counter Value: 12
+		Smaller Counter Value: 0
+
+		Mean Counter Value: 8.17
+		Mean Absolute Deviation: 0.95
+		Standard Deviation: 1.22
+		Maximum Deviation: 8.17
+		Variance: 1.48
+
+		counter value:          4 -          1 times
+		counter value:          5 -          4 times
+		counter value:          6 -         65 times
+		counter value:          7 -        215 times
+		counter value:          8 -        328 times
+		counter value:          9 -        264 times
+		counter value:         10 -         98 times
+		counter value:         11 -         19 times
+		counter value:         12 -          6 times

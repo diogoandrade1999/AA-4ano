@@ -1,0 +1,172 @@
+https://www.geeksforgeeks.org/edit-distance-dp-5/
+https://en.wikipedia.org/wiki/Wagner%E2%80%93Fischer_algorithm
+
+12 – Dadas duas cadeias de caracteres,
+determinar a sua distância usando o Algoritmo de WagnerFischer
+(“The String to String Correction Problem”).
+
+
+-   complexidade
+
+recursive: O(str1_size ^ str2_size) -> exponencial
+The worst case happens when none of characters of two strings match.
+
+dynamic: O(str1_size x str2_size) -> linear
+sum(sum(1, j=1 to n), i=1 to n)
+
+num operaction dynamic and confirm recursive
+
+Realizar um conjunto de testes com instâncias de dados sucessivamente maiores.
+
+
+
+# ** Operations
+# ! all the x need be the same letter
+# ! all the y need be the same letter
+
+# * xAy
+# * prefix:  x_size
+# * size:    str1_size - prefix
+# * if y == None:
+# *     total = prefix + size * 3
+# * else:
+# *     insert:  size
+# *     delete:  sum 1->size k + 1
+# *     replace: sum 1->size k
+# *     total = prefix + insert + delete + replace
+
+list_test_1 = [
+            # !!!!!! action
+            ("A", "A"),        # * ['e', '|']
+                               # ! 0 + 1 * 3 != 1
+            ("xAA", "AA"),     # ! 0 + (2 - 0) * 3 != 10 != 3 + ((1 + 1) + (1 + 2) + (1 + 3)) + (1 + 2 + 3)
+            ("AAy", "AA"),     # ! 3 + (())
+
+            # * x = None and y = None
+            ("A", ""),         # * ['1', '|']
+                               # * None -> 0
+
+            # * y = None
+            # ! size of prefix increse 3x on num of operations
+            ("xA", "A"),       # * ['e', '1', '|']
+                               # * None -> 1
+            # * change prefix_size
+            ("xxA", "A"),      # * 2 + (1 - 1) * 3
+
+            # * x = None
+            # ! size of sufix does not increse the num of operations
+            ("Ay", "A"),       # * ['i', 'e', '|',
+                               # *  'd', '1', '1', '|',
+                               # *  'r', '1', '|']
+                               # * replace -> 4
+            # * change prefix_size
+            ("Ayy", "A"),      # * 0 + 1 + ((1 + 1)) + (1)
+]
+
+list_test_10 = [
+            # * x != None and y != None
+            ("xAy", "xy"),   # * ['e', 'i', '0', '0', '|',
+                             # *  'd', 'e', '|',
+                             # *  'r', '0', '|']
+                             # * replace -> 5
+
+            ("Ayyy", "yyy"),   # * ['i', 'i', 'i', '0', '0', '0', '0', '|',
+                               # *  'd', 'e', '0', '0', '|',
+                               # *  'r', '0', '0', '0', '|',
+                               # *  'd', 'e', 'e', '0', '|',
+                               # *  'r', 'e', '0', '0', '|',
+                               # *  'd', 'e', 'e', 'e', '|',
+                               # *  'r', 'e', 'e', '0', '|']
+            ("aAaaa", "aaaa"), # * replace -> 19
+
+
+            ("aAa", "aa"),     # * remove
+            ("aaAaa", "aaaa"), # * remove
+
+
+            ("a", "ab"),                                # * insert
+
+            ("a", "b"),                                 # * replace
+            ]
+
+list_test_2 = [
+            ("abc", "a"),            # * 2 removes
+            ("ad", "abcd"),          # * 2 inserts
+            ("ac", "bd"),            # * 2 replaces
+
+            ("abc", "bcd"),          # * remove + insert
+            ("ace", "abcd"),         # * insert + replace
+            ("ac", "b"),             # * replace + remove
+            ]
+
+list_test_3 = [
+            ("abcd", "a"),           # * 3 removes
+            ("ace", "abcdef"),       # * 3 inserts
+            ("ace", "bdf"),          # * 3 replaces
+            ]
+
+list_test_other = [
+            ("saturday", "sunday"),
+            ("ball", "baill"),
+            ("cat", "cut"),
+            ("kitten", "sitting"),
+            ("abc", "xyz"),
+            ("money", "food"),
+            ("cart", "march")
+            ]
+
+
+
+
+def distance_recursive(str1:str, str2:str, index1:int = 0, index2:int = 0, moves:list = None) -> tuple:
+    if not moves:
+        moves = []
+
+    if index1 == len(str1):
+        if len(str2) - index2:
+            moves += ['1'] * (len(str2) - index2)
+        moves += "|"
+        return len(str2) - index2, moves
+
+    if index2 == len(str2):
+        if len(str1) - index1:
+            moves += ['0'] * (len(str1) - index1)
+        moves += "|"
+        return len(str1) - index1, moves
+
+    utils.increment(1)
+    if str1[index1] == str2[index2]:
+        moves += ['e']
+        return distance_recursive(str1, str2, index1 + 1, index2 + 1, moves)
+
+    utils.increment(2)
+    moves += ['i']
+    insert, moves = distance_recursive(str1, str2, index1, index2 + 1, moves)
+    moves += ['d']
+    remove, moves = distance_recursive(str1, str2, index1 + 1, index2, moves)
+    moves += ['r']
+    replace, moves = distance_recursive(str1, str2, index1 + 1, index2 + 1, moves)
+    if remove > insert < replace:
+        return 1 + insert, moves
+    elif insert > remove < replace:
+        return 1 + remove, moves
+    return 1 + replace, moves
+
+
+def test(distance:int):
+    if distance == 1:
+        list_test = utils.list_test_1
+    elif distance == 2:
+        list_test = utils.list_test_2
+    elif distance == 3:
+        list_test = utils.list_test_3
+    else:
+        list_test = utils.list_test_other
+
+    # ["Recursive", "Memoized Recursive", "Dynamic", "Improved Dynamic"]:
+    print("\nRecursive")
+    for str2, str1 in list_test:
+        utils.initialize()
+        start_time = time.time()
+        distance = main.distance_recursive(str1, str2)
+        print("str1: {:20} str2: {:20} {:8} {:12} {:14f}".format(str1, str2, distance, utils.counter, time.time()-start_time))

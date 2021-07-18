@@ -1,0 +1,34 @@
+Contador exato
+contador com probabilidade 1/16
+contador logarítmico com base sqrt(2)
+
+Hipótese B – Contagem Aproximada de Ocorrências – Cadeias de Caracteres Aleatórios
+
+Pretende-se que sejam criados métodos para contar o número de ocorrência de caracteres em
+cadeias de caracteres aleatórios.
+
+Os métodos a criar devem permitir contar os caracteres com três tipos de contadores: exatos,
+aproximados com probabilidade fixa e aproximados com probabilidade decrescente
+logarítmica, ou usando o contador de vírgula flutuante de Csuros.
+
+Atenção:
+• As bases dos contadores a usar deverão ser escolhidas com o docente da unidade
+curricular.
+• As cadeias de teste usadas deverão ser geradas escolhendo aleatoriamente caracteres da
+cadeia de caracteres que representa o seu nome – em que todos os caracteres são minúsculos
+e sem espaços. Por exemplo: “antóniomanueldasilvaferreira”.
+• Deve ser assegurado que alguns dos caracteres têm um número de ocorrências
+significativamente maior que outros.
+• Crie cadeias de teste com 100, 1000, 10000, 1000000, etc. caracteres.
+
+Deverá ser feita uma análise da eficiência computacional e das limitações dos métodos
+desenvolvidos. Para isso deve:
+a) Realizar um conjunto de testes.
+b) Comparar o desempenho dos métodos de contagem.
+c) Escrever um relatório sucinto (máx. 6 págs.).
+
+O que fazer:
+Obter as frequências de ocorrência de todas os caracteres distintos que surgem em cada uma das
+cadeias de teste.
+Os resultados dos contadores aproximados devem ser comparados com os resultados dos contadores
+exatos – por exemplo: máximo erro relativo, mínimo erro relativo, média do erro relativo, etc.

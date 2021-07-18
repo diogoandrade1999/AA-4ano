@@ -1,0 +1,15 @@
+The Count-Min Sketch
+
+Tarefa: Analise o comportamento do método que desenvolveu quando altera algum dos seus
+parâmetros. Qual é a influência dessas alterações nos resultados dos testes computacionais?
+
+Hipótese A-1 – Strings de letras minúsculas
+Como aplicação, e para analisar o comportamento do método desenvolvido, deve utilizar conjuntos
+de dados contendo letras minúsculas, que lhe permitem “simular” data streams de um modo
+simples:
+- gere ficheiros de texto com letras minúsculas aleatórias separadas por um espaço, com 100, 1000,
+10000, 100000, 1000000, 10000000, etc. elementos. Deve atribuir maior probabilidade a
+algumas das letras.
+- use o método desenvolvido para determinar as letras mais frequentes.
+- há alguma letra que ocorra mais de 5% ou 10% das vezes?
+- compare os resultados obtidos com as contagens exatas.
